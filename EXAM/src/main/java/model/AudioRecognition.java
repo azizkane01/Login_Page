@@ -72,7 +72,7 @@ public  class AudioRecognition {
      */
     public String transcribeAudio(byte[] audioData) {
         try {
-            Model model = new Model("src/main/resources/vosk-model-small-fr-0.22");
+            Model model = new Model("Exam/src/main/resources/vosk-model-small-fr-0.22");
             Recognizer recognizer = new Recognizer(model, SAMPLE_RATE);
 
             // Transcrire par morceaux
