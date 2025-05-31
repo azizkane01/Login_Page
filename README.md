@@ -2,12 +2,12 @@
 
 ## Objectif pédagogique
 
-Ce projet a pour but de concevoir une interface graphique en Java Swing permettant :
+Ce projet a pour but de concevoir une interface graphique en JavaFx permettant :
 
 - L'affichage d'un formulaire d'authentification utilisateur.
 - Un accès sécurisé par reconnaissance vocale.
-- La manipulation des bibliothèques Swing et Audio en Java.
-- L'intégration d'une bibliothèque open source de reconnaissance vocale (VOSK ou CMU Sphinx).
+- La manipulation des bibliothèques JavaFx et Audio en Java.
+- L'intégration d'une bibliothèque open source de reconnaissance vocale (VOSK).
 - Une fonctionnalité d'inscription (signup) ajoutée pour permettre la création de nouveaux utilisateurs.
 
 ---
