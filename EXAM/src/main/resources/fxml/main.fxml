@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+    <top>
+        <MenuBar>
+            <Menu text="Fichier">
+                <MenuItem text="Quitter"/>
+            </Menu>
+            <Menu text="Aide">
+                <MenuItem text="À propos"/>
+            </Menu>
+        </MenuBar>
+    </top>
+
+    <center>
+        <VBox alignment="CENTER" spacing="20">
+            <Label fx:id="welcomeLabel" style="-fx-font-size: 24;"/>
+            <Button text="Accéder au tableau de bord" disable="true"/>
+        </VBox>
+    </center>
+    <bottom>
+        <HBox spacing="10" BorderPane.alignment="CENTER">
+            <Region fx:id="spacer" HBox.hgrow="ALWAYS"/>
+            <Button text="Déconnection" onAction="#Deconnection"/>
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+        </HBox>
+
+
+    </bottom>
+
+</BorderPane>
